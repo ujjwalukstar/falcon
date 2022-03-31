@@ -1,0 +1,151 @@
+<!-- css position property -->
+<h2><u>css positon property</u></h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #outer-div{
+            border: 2px solid black;
+            margin:20px;
+            position: relative;
+        }
+       
+        #div1{
+            height:100px ; 
+            width:100px;
+            background-color: darkorchid;
+            position:fixed; 
+            /* absolute; */
+            left:20px;
+            /* top: 20px; */
+               }
+        #div2{
+            height:100px ; 
+            width:100px;
+            background-color: rgb(64, 219, 25);
+            position:sticky;
+            left:20px;
+            top:100px;
+            border:3px solid red; 
+                         
+              }
+        #div3{
+            height:100px ; 
+            width:100px;
+            background-color: rgb(238, 147, 73);
+               }
+ 
+        #div4{
+            height:100px ; 
+            width:100px;
+            background-color: rgb(252, 66, 196);
+               } 
+                
+ 
+    </style>
+</head>
+<body>
+     <!-- css position property -->
+     <div id="outer-div">
+        <div id="div1"></div>
+        <div id="div2">i m sticky</div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+    <p>hy i am ukstar doing fornt end development</p>
+    </div>
+    <p>in inline we cant add padding and margin</p>
+    <p>for that we have to make display inline-block</p>
+</body>
+</html>
+
+<br><br><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div.static{
+        position:static;
+        border:5px solid #f371ed;
+    }
+    div.relative1{
+        position:relative;
+        top:4px;
+        /* left: 50px; */
+        right:4px;
+        border:8px solid #76ccee;
+    }
+    div.fixed{
+        position:fixed;
+    
+        /* bottom:0; */
+        right:20; 
+        width:300px;
+        border:10px solid #54f135;
+
+    }
+
+    div.relative{
+        position:relative;
+        width:400px;
+        height:200px;
+        border:3px solid #4547e9
+    }
+    div.absolute{
+        position:absolute;
+        top:80 px;
+        right:0;
+        width: 200px;
+        height:100px;
+        border:5px solid #ff2a23
+
+    }
+    div.sticky{
+        position:sticky;
+        top:0;
+        padding:5px;
+        background-color: blue;
+        border:6px solid #76ccee;
+    }
+    </style>
+</head>
+<body>
+    <div>
+    <h2>position:static<h2>
+    <div class="static">
+        what is static position?
+    </div>
+    <br>
+    <h2>position:relative</h2>
+    <div class="relative1">
+        what is relative position?
+    </div>
+    <br>
+
+        <h2>position:fixed</h2>
+        <div class="fixed">
+            what is fixed position?
+        </div>
+     <br>
+     <h2>position:absolute</h2>
+     <div class="relative">this div element has position:relative
+         <div class="absolute">this div element has position:absolute</div>
+     </div>
+    </div>
+    <br>
+    <h2>Poaition: Sticky</h2>
+    <div class="sticky">
+      This div contains sticky
+    </div>
+</body>
+</html>

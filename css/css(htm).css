@@ -1,0 +1,101 @@
+/* type selector */
+p{
+    color:rgb(55, 88, 233);
+    font-size: 10;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size:40px;
+    color:blueviolet;
+}
+h2{
+    font-size:30px;
+    color:chartreuse;
+     
+}
+main{
+    display: inline-block;
+    width:70%;
+}
+/* id selector */
+#uk{
+    text-transform:uppercase;
+    color: rgb(105, 238, 93);
+}
+/* class selector {inline>id>class>type */
+.uppercase{
+    text-transform: lowercase;
+}
+.cursive{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* grouping nd nesting of selectors */
+h1,h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#uk{
+    background-color: rgb(40, 44, 253);
+}
+.mee{
+    text-transform: uppercase;
+    font-family: cursive;
+}
+/* nesting */
+lih4{
+    font-family: 'Times New Roman', Times, serif;
+}
+#star{
+     color:rgb(255, 0, 0);
+}
+/* zubuu classes */
+#pseudo-class:hover{
+    color:darkorange;
+}
+#ukstar:hover{
+    color:mediumturquoise;
+}
+#program:hover{
+    color:rgb(201, 28, 172);
+}
+
+/* aside */
+.widget{
+    border-top: 4px solid black;
+    
+}
+.widget input{
+    display:block;
+    background-color: coral;
+    margin-bottom:5px;
+    padding: 8px; 
+    color: rgb(38, 197, 202);
+    font-size: 0.5rem;
+    line-height: 2px;
+}
+button[type="submit"]{
+    font-size: 1.2rem;
+    background-color: darkturquoise;
+    color:white;
+    padding:2px;
+}
+.widget-title{
+    font-size: 30px;
+
+}
+
+aside{
+    display: inline-block;
+    width: 25%;
+    /* by default aside is bottom aligned */
+    vertical-align: top;
+    background-color: deepskyblue;
+    margin-left: 22px;
+    padding-left: 22px;
+    /* float:left; */
+    
+}
+ 

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logins</title>
+</head>
+<body>
+    <i><h2>forms:</h2></i>
+    <form>
+        <div>
+         <b> <i> <label for="Username">Username</label><br></i></b>
+            <input type="email" id="Username" required>
+        </div>
+        <br>
+        <div>
+            <label for= "password"> password</label><br>
+            <input type="password" id="password" required>
+        </div>
+        <br>
+    <br>
+        <div>
+            <label for="Username">Volume</label><br>  
+            <input type="range" id="Username" required min="10" max="100" step="10">
+        </div>
+        <br>
+        <div>
+            <label for= "password"> password</label><br>
+            <input type="password" id="password" required>
+        </div>
+        <br>
+        <div>
+           <input type="Submit">
+        </div>
+
+    </form>
+    <br>
+    <form>
+        <!-- name is for passing the value -->
+        <div>
+            <label for="Username"> Email</label><br>  
+            <input type="email" name="Email"value="abc@gmail.com" id="Username" required disabled>
+        <!-- value- if the data is not filled then the form will pass with its default value -->
+        </div>
+        <br>
+        <div>
+            <label for="country">Country</label><br>
+            <input type="country" name="country"id="country" required placeholder="India" >
+        </div>
+        <br>
+        <div>
+            <label for= "password"> password</label><br>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <br>
+        <div>
+           <input type="Submit">
+        </div>
+
+    </form>
+    <br>
+    <strong>RADIO BUTTONS AND CHECKBOX</strong>
+    <form>
+       <strong> <p>Gender</p> </strong>
+        <input type="radio" name="gender" value="male" checked>MALE<br>
+        <input type="radio" name="gender" value="female">FEMALE<br>
+        <input type="radio" name="gender" value="others">OTHERS<br>
+        <input type="submit">
+
+        <i><b><p>Courses done</p></b></i>
+        <input type="checkbox" name="courses" value="Java">Java <br>
+        <input type="checkbox" name="courses" value="c++">c++ <br>
+        <input type="checkbox" name="courses" value="web development" checked>web development <br>
+        <input type="checkbox" name="courses" value="python">python <br>
+        <input type="submit">
+        
+    </form>
+    <!-- for sending the form with the collected data there should be url of tat page in <form action="url" method=""(rqust method)
+     -->
+    <form>
+        <strong><p>Dropdown list</strong></form></p>
+       <h4> <p>month</p> </h4>
+        <select name="month_selected" multiple>
+            <option>jan</option>
+            <option>feb</option>
+            <option selected>nov</option>
+            <option>dec</option>
+        </select>
+        <p><i>Share your experience</i></p>
+        <textarea name="experience" rows="5" cols="8"></textarea><br>
+        <input type="submit">
+        <input type="button" value="button1">
+        <button type="button"><img src="coding ninjas logo.png"></button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* html{
+    font-size: 30px;
+} */
+
+#outer-div1{
+    height: 200px;
+    width: 300px;
+    background-color: chartreuse;
+    margin: auto;
+    margin-bottom: 30px;
+    /* margin-top: 20px; */
+    /* 5px 10px 15px 20px; */
+    /* auto for center */
+    padding:5px 10px 20px 30px;
+} 
+/* vertical margin collapse they dont add rather the highest of two taken */
+
+#inner-div1{
+    height: 50%;
+    width:50%;
+    background-color: coral;
+}
+
+#outer-div2{
+    height: 200px;
+    width:300px;
+    background-color: cornflowerblue;
+    margin: auto;;
+    /* margin: 20px; */
+    margin-top: 10px;
+     
+}
+/*  block vs inline */
+#div1{
+    height:100px;
+    width:200px;
+    background-color:crimson;
+}
+#div2{
+    height:100px;
+    width:200px;
+    background-color: darkmagenta;
+    margin-left: -10px;
+}
+span{
+    display: block;
+    margin: 50px 0;
+    padding: 0;
+    color: darkmagenta;
+    /* visibility: hidden; */
+}
+div{
+    display: inline-block;
+/* div will not display bcz it will set height nd width=0
+  as in inline we can set h nd w nd padding.
+*/
+}
+/* aside */
+.widget{
+    border-top: 4px solid black;
+    
+}
+.widget input{
+    display:block;
+    background-color: coral;
+    margin-bottom:10px;
+    padding: 10px; 
+    color: rgb(36, 48, 214);
+    font-size: 0.5rem;
+    line-height: 2px;
+}
+button[type="submit"]{
+    font-size: 1.2rem;
+    background-color: darkturquoise;
+    color:white;
+    padding:2px;
+}
+.widget-title{
+    font-size: 30px;
+
+}

@@ -1,0 +1,59 @@
+html{
+     font-size:20px; 
+} 
+#div1{
+    height:4rem; 
+    /* 80vh; */
+    /* 200px; */
+    width:6rem;
+     /* 80vw; */
+    /* 300px; */
+    background-color: rgb(37, 37, 241);
+    /* (a=opacity)rgba(52,36,756,1); */
+     /* rgb(23,245,627); */
+    /* hexa-decimal code=#8a2be2 */
+
+    /* adding border */
+    border: 4px  dotted red;
+    border-radius: 10px;
+    /* border-width:2px 3px 4px 5px; */
+    /* 2px 4px 6px 8px(t,b,r,l); */
+    /* 2px 4px 6px (t,l&r,b);  */
+    /* 4px 6px (top&bottom,left&right); */
+    /* border-style:solid; */
+    /* border-color:rgb(240, 144, 80); */
+    
+}
+#div2{
+    height:50%;
+    width:50%;
+    background-color: rgb(27, 240, 38);
+}
+/* height nd width relative to the parent div */
+/* % for parent */
+
+#ukstar{
+    border-left: 6px solid rgb(231, 52, 255);
+    /* border: 2px dotted orange; */
+
+}
+/* text styling */
+#ukstar2{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(245, 122, 66);
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    text-transform:capitalize;
+    text-decoration: line-through underline;
+}
+#uk{
+    height: 10vh;
+    width:10vw;
+    background-image: url("hacker.png");
+    background-repeat: no-repeat;
+}
+
+ 
